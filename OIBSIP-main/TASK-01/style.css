@@ -1,0 +1,172 @@
+body {
+  font-family: "Arima Madurai";
+  color: black;
+}
+.landing-page {
+  background:url("https://png.pngtree.com/background/20230612/original/pngtree-various-makeup-products-lie-on-a-table-on-dark-picture-image_3185889.jpg");
+  background-size: cover;
+  height: 768px;
+  color: white;
+}
+.nav-bar {
+  height: 50px;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid grey;
+}
+.menu-btn {
+  height: 30px;
+  float: right;
+  border: none;
+  border-left: 1px solid #FF1493;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 18px;
+  padding-bottom: 30px;
+  background-color: #F2F2F2;
+}
+.menu-btn:hover {
+  background-color: #d3d3d3;
+}
+.container-fluid {
+  margin-top: 11%;
+  float: left;
+}
+h1 {
+      font-size: 90px;
+    font-family: "Sail";
+}
+p {
+  font-size: 40px;
+  font-style: italic;
+}
+.btn {
+  text-decoration: none;
+  border: 2px solid #FF1493;
+  padding: 10px 20px;
+  font-size: 25px;
+  color: white;
+  transition: background-color 0.2s ease-out;
+  border-radius: 500px;
+}
+a:hover {
+  color: white !important;
+  background-color: rgba(255, 20, 147, 0.2);
+  cursor: pointer;
+}
+.Learnmore-page {
+  background:url("https://w0.peakpx.com/wallpaper/18/115/HD-wallpaper-backround-designs-backrounds-abstracts-swirls-patterns-thumbnail.jpg") no-repeat;
+    height: 750px;
+    background-size: cover;
+    border-top: 1px solid grey;
+}
+.row {
+  float: left;
+  margin: 0 auto;
+  width: 100%;
+  height: 450px; 
+}
+.Learnmore-box {
+  box-shadow: 0 0 35px black;
+  color: white;
+  background-color: black;
+  height: auto;
+  width: 25%;
+  float: left;
+  margin-left: 75px;
+  margin-top: 100px;
+  border-radius: 20px;
+  text-align: center;
+  border: 2px solid #A9A9A9;
+  padding-bottom: 20px;
+}
+.Learnmore-box h1{
+  font-size: 53px;
+}
+.book-btn {
+  background-color: white;
+  color: black;
+  border: 3px solid #FF1493;
+  border-radius: 10px;
+  padding: 5px 60px;
+}
+.book-btn:hover {
+  background-color: #eebbde;
+  text-decoration: none;
+}
+p {
+  font-size: 25px;
+}
+.contact-me {
+  font-style: oblique;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-size: cover;
+  height: 768px;
+  border-top: 1px solid black;
+}
+.contact-head {
+  text-align: center;
+  width: 40%;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid black;
+  color:brown;
+  font-family: cursive,monospace;
+}
+#form {
+  text-align: left;
+  margin-top: 5%;
+  font-size: 20px;
+  margin-left: 10%;
+}
+label {
+  margin-top: 10px;
+}
+.submit{
+  margin-top: 20px;
+  font-size: 22px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px solid black;
+  border-radius: 600px;
+  background-color: white;
+}
+.submit:hover {
+  background-color: #b6ebec;
+}
+input {
+  border: 2px solid black;
+}
+header {
+  position: fixed;
+  top: 0;
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 64px;
+  font-size: 1.2em;
+  z-index: 2;
+}
+
+.menu-list li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 44px;
+  cursor: pointer;
+  transition: color 0.5s;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu-list li.active,
+.menu-list li:hover {
+  color: #ff0073;
+}
+footer{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  color: black;
+  position: relative;
+  
+}
